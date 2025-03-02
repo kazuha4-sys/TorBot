@@ -5,7 +5,7 @@ FROM python:3.11.4
 WORKDIR /app
 
 # Clone the TorBot repository from GitHub
-RUN git clone https://github.com/DedSecInside/TorBot.git /app
+RUN git clone https://github.com/kazuha4-sys/TorBot.git /app
 
 # Install dependencies
 RUN pip install -r /app/requirements.txt
